@@ -113,20 +113,20 @@ h1, h2, h3, h4, h5, h6{
 }
 h1{
 	font-size:40px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Muli', sans-serif;
 	/* font-weight: bold; */
 /* or 58px */
 	color: #002880;
 }
 h2{
 	font-size:30px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Muli', sans-serif;
 	/* font-weight: bold; */
 	color: #002880;
 }
 h3{
 	font-size:22px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Muli', sans-serif;
 	/* font-weight: bold; */
 	line-height: 91.1%;
 /* or 58px */
@@ -860,11 +860,11 @@ h6{
 }
 .intro__title{
 	padding:0 0 15px 0;
-	color:#002880;
-	font-family: 'Raleway', sans-serif;
-	/* font-weight: bold; */
+	color:#36384C;
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
 	font-size:50px;
-	line-height:46px;
+	line-height:55px;
 	/* letter-spacing:-1px; */
 }
 .intro__title span{
@@ -984,7 +984,7 @@ svg.svg-intro-bottom {
 .grid--about .grid__title{
 	font-size:36px;
 	line-height:42px;
-	font-weight:300;
+	font-weight: bold;
 	padding:0 0 40px 0;
 	margin:0px;
 	position:relative;
