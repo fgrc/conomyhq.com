@@ -998,9 +998,12 @@ svg.svg-intro-bottom {
 	padding:20px 0 0 0;
 }
 .grid--about .grid__list li{
-	background:url(images/checked.png) no-repeat 0 50%;
+	background:url(images/arrow-right.png) no-repeat 0 30%;
 	font-size:18px;
 	padding:10px 0 10px 40px;
+	color: #848484; 
+	font-size:16px; 
+	font-weight: 300
 }
 /*===============================================*/
 /*  7.3 CUSTOM SECTION - FEATURES	 			 */
