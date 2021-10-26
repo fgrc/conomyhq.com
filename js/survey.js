@@ -3,7 +3,7 @@ $(document).ready(function(){
     $(window).resize(function(){
       if($(window).width() + $(window).height() != _originalSize){
         console.log("keyboard show up");
-        $(".intro-animation-line").css("display","none");  
+        // $(".intro-animation-line").css("display","none"); 
       }else{
         console.log("keyboard closed");
         $(".intro-animation-line").css("display","flex");  
@@ -15,8 +15,18 @@ $(document).ready(function () {
 
     // fix focus on input
 
-    $('.form__submit_1').click(function(){  
-        $('.form_1').click();
+
+    $('.form__submit_1').click(function(){ 
+        // $('.form_1').click();
+        let promiseForm = new Promise(function(){
+            $('.form_1').click();
+        });
+        promiseForm.then(
+             setTimeout(function(){
+                $(".form__row-border-inline").css("top", $(".form__input-line").outerHeight() + $("#mce-responses").outerHeight()+4)
+             },2000)
+        );
+
     })
     
     $('.form__submit_2').click(function(){  
@@ -29,10 +39,12 @@ $(document).ready(function () {
     const formInputLineHeight = $(".form__input-line").outerHeight();
     const labelHeight = $(".form__label").outerHeight();
     const heightFormRow = formInputHeight + labelHeight;
+    const responseEmail = $("#mce-responses").outerHeight();
 
     $(".form__row-border").css("top", heightFormRow);
+    console.log(responseEmail);
 
-    $(".form__row-border-inline").css("top", formInputLineHeight - 2);
+    $(".form__row-border-inline").css("top", formInputLineHeight+responseEmail);
     (function ($) {
         window.fnames = new Array();
         window.ftypes = new Array();

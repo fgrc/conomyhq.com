@@ -2947,7 +2947,7 @@ svg.svg-cta-bottom {
 		display: none !important;
 	}
 	.intro-animation-line {
-			width: 80%;
+			/* width: 80%; */
 			height: 55%;
 			float: left;
 			text-align: right;
@@ -2957,4 +2957,6 @@ svg.svg-cta-bottom {
 			z-index: 222;
 	}
 }
+
+
 
