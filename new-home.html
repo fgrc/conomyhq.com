@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Conomy - Transforma todas tus tarjetas en una con superpoderes</title>
+	<meta name="description"
+		content="Una app para manejar y comprender tus finanzas personales ayudándote a planificar tu futuro con tranquilidad.">
+	<meta name="keywords" content="finanzas personales, finanzas, app, fintech, educacion financiera, ahorro, superpoderes">
+	<meta http-equiv="Content-Type" content="text/html, charset=utf-8">
+
+	<link rel="canonical" href="https://conomyhq.com/" />
+
+	<meta property="og:title" content="Conomy - Maneja tus finanzas con libertad">
+	<meta property="og:description"
+		content="Todas tus tarjetas en una una y una con superpoderes. Conomy te ayuda a entender qué pasa con tu dinero, para que puedas manejarla mejor y sin preocupaciones.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="images/social/logo-social-media-orange.png">
+	<meta property="og:url" content="https://conomyhq.com/">
+	<meta property="og:site_name" content="Conomy">
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@conomyhq">
+	<meta name="twitter:title" content="Conomy - Maneja tus finanzas con libertad">
+	<meta name="twitter:description"
+		content="Todas tus tarjetas en una una y una con superpoderes. Ahorra, entiende y planifica mejor tu dinero.">
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- Hotjar Tracking Code for conomyhq.com -->
+	<script>
+		(function (h, o, t, j, a, r) {
+			h.hj = h.hj || function () {
+				(h.hj.q = h.hj.q || []).push(arguments)
+			};
+			h._hjSettings = {
+				hjid: 1777900,
+				hjsv: 6
+			};
+			a = o.getElementsByTagName('head')[0];
+			r = o.createElement('script');
+			r.async = 1;
+			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+	</script>
+
+</head>
+
+<body>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160644676-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-160644676-1', {
+			'optimize_id': 'GTM-WPRD3HT'
+		});
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-KWQBHND');
+	</script>
+	<!-- End Google Tag Manager -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWQBHND" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<header class="header">
+		<div class="header__content header__content--fluid-width">
+			<div class="header__logo-title">
+				<img class="conomy__logo" src="images/logo-All-orange.svg" title="Logo Conomy" />
+			</div>
+			<nav class="header__menu">
+				<ul>
+					<li><a class=" header-link" id="nav-stats" href="#stats">Todo en uno</a></li>
+					<li><a class=" header-link" id="nav-control" href="#control">Control</a></li>
+					<li><a class=" header-link" id="nav-edu" href="#education">Objetivos y desafíos</a></li>
+					<li><a class=" header-link" id="nav-freedom" href="#freedom">Libertad</a></li>
+					<li><a class=" header-link" id="nav-freedom" href="#how_it_works">¿Cómo funciona?</a></li>
+					</li> 
+					<!-- <li><a class="header-link" href="#conomy">¿Quienes Somos?</a></li> -->
+					<li class="header__btn header__btn--signup modal-toggle" id="cta_header"
+						data-openpopup="signuplogin" data-popup="signup"><a href="#">Únete</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Section -- intro -->
+	<section class="section section--intro" id="intro">
+		<div class="section__content section__content--fluid-width section__content--intro">
+			<div class="intro">
+				<div class="intro__content">
+					<div class="intro__title">La única forma de ahorrar mientras gastas</div>
+					<div class="intro__subtitle" style="padding: 0 0 20px 0;">
+						Toda tu billetera en una tarjeta, paga con Conomy y te premiamos con plata. El control de tus finanzas es tuyo y de nadie más.</div>
+					<!-- Begin Mailchimp Signup Form -->
+					<div id="mc_embed_signup">
+						<form
+							action="https://conomyhq.us19.list-manage.com/subscribe/post?u=913fb462d6cd9061f4d515557&amp;id=b78d0cb936"
+							method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+							class="validate" target="_blank" novalidate
+							style="	display: flex; flex-flow: row wrap; align-items: center;">
+							<div id="mc_embed_signup_scroll" style="width: 100%">
+								<div class="mc-field-group form__row">
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-error-response" style="display:none; color: #ff715b; margin-bottom: 6px"></div>
+										<div class="response" id="mce-success-response" style="display:none; color: #4D998C; margin-bottom: 6px"></div>
+									</div>
+									<input class="form__input-line" type="email" value="" placeholder="e-mail"
+										name="EMAIL" class="required email" id="mce-EMAIL">
+									<span class="form__row-border-inline"></span>
+									<div class="clear">
+										<input type="submit" class="form_1" name="subscribe" id="mc-embedded-subscribe" style="display: none">
+										<div
+											class="form__submit_1 btn btn--green-bg"
+											style="float: right; transform: translateY(-100%); margin-top: 0; margin-right: 5%; font-size: 14px;">
+											Empezar	
+										</div>
+									</div>
+								</div>
+
+								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+										name="b_913fb462d6cd9061f4d515557_b78d0cb936" tabindex="-1" value=""></div>
+							</div>
+							
+							<div class="init-mssg" style="display: contents;">
+							<img src="./images/icons/ stopwatch.svg"
+										alt="Cronometro"
+										title="" />
+							<span style="margin-left: 6px; font-size: 14px; color: #3D4043;">Se de los primeros en tenerla</span>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="intro-animation-line" style="padding-top:12px">
+			<img src="./images/app/home-principal.svg"
+				alt="Pantalla de celular con el inicio de Conomy mostrando balance de cuenta, objetivos y tips para ahorrar y manejar tu dinero"
+				title="" />
+		</div>
+		<!-- <svg class="svg-intro-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<path d="M95,0 Q90,90 0,100 L100,100 100,0 Z" fill="#ffffff"/>
+			</svg> -->
+	</section>
+
+	<!-- Section -- features -->
+	<section class="section section--features" id="features">
+
+		<div class="section__content section__content--fluid-width section__content--features">
+			<h2 class="section__title section__title--centered">Diseñada para que puedas enfocarte en tu proyecto de
+				vida </h2>
+			<div class="section__description section__description--centered">
+				Tu tranquilidad es lo más importante. Define tu presupuesto y nos encargamos de que lo cumplas.
+¡Haz lo tuyo, lo nuestro es mejorar tus finanzas!
+			</div>
+			<!-- <div class="wrapper">
+				<a href="https://www.notion.so/Por-qu-Conomy-3ea7a6dd6c3d4ec7af656575b1f0efc4" id="read_more_top"
+					class="btn btn--blue-bg" target="_blank" rel="noopener">Leer más</a>
+			</div> -->
+		</div>
+
+
+	</section>
+	<section class="section" id="stats">
+
+		<div class="section__content section__content--fluid-width section__content--about">
+			<div class="grid grid--5col grid--about">
+
+
+				<div class="grid__item grid__item--x2 grid__item--floated-right">
+					<h3 class="grid__title">Todas tus tarjetas en una, y una para todo lo demás</h3>
+
+					<p class="grid__text">Imagina una tarjeta con la que puedes controlar a todas las demás, independiente de que banco las emitió, que sirve para pagar donde y como quieras.
+					¡Eso es Conomy!.</p>
+					<p class="grid__text">Deja las demás tarjetas en casa, paga como prefieras y solo usa Conomy.</p>
+					<p class="grid__text">Hay muchas ventajas al usar solo la tarjeta Conomy:</p>
+					<ul class="grid__list">
+						<li>Lleva el control de todos tus gastos, independiente de con que pagaste.</li>
+						<li>Es seguro, deja las demás en casa, evita clonaciones y estafas.</li>
+						<li>Es simple, solo carga lo necesario.</li>
+						<li>Tu billetera adelgaza y tu bolsillo lo agradece.</li>
+						<li>Es mucho más cool!.</li>
+					</ul>
+		
+
+					<!-- <p class="grid__text">Solo una tarjeta para todo lo que necesitas. Usar Conomy es seguro, deja todas tus tarjetas en casa y no te arriesgues. Conomy es la única tarjeta que necesitas para pagar en tiendas y online.</p> -->
+					<div class="intro__buttons intro__buttons--left modal-toggle" data-openpopup="signuplogin"
+						data-popup="signup">
+						<a href="./index.html" id="cta_section_stats" class="btn btn--orange-bg">Descubre más</a>
+					</div>
+				</div>
+				<div class="grid__item grid__item--x3">
+					<div class="grid__image grid__image--left" data-paroller-factor="0.1"
+						data-paroller-type="foreground" data-paroller-direction="vertical"><img
+							src="images/app/all-cards.png"
+							alt="Pantalla de celular de Conomy mostrando analisis de ingresos y gastos junto con graficos mostrando categorias"
+							title="" /></div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- Section -- about -->
+	<section class="section" id="control">
+
+		<div class="section__content section__content--fluid-width section__content--about">
+			<div class="grid grid--5col grid--about">
+
+				<div class="grid__item grid__item--x2">
+					<h3 class="grid__title">Siempre en control</h3>
+					<p class="grid__text">Es difícil medirse con los gastos y para ahorrar lo necesitas...</p>
+					<p class="grid__text">La mejor forma de poder controlar tus finanzas es con un presupuesto, <b>¡pero tampoco es sencillo!</b>. Por eso, en Conomy, lo resolvimos para ti.</p>
+					<p class="grid__text">En solo 3 pasos puedes resolver tus problemas financieros:</p>
+					<ul class="grid__list">
+						<li>Establece tus ingresos mensuales (aunque sean aproximados).</li>
+						<li>Ingresa tus gastos fijos como: arriendo, cuentas y suscripciones.</li>
+						<li>Automatiza el pago de tus gastos fijos dentro de Conomy y nunca mas vuelvas a pagar intereses por mora.</li>
+					</ul>
+					<p class="grid__text" style="margin-top: 12px;">¡Y Listo! Ahora Conomy automáticamente te dirá cuanto puedes gastar diaria y mensualmente para siempre estar en control. 
+						Te mostraremos un seguimiento de tu presupuesto y de tus metas de ahorro de forma simple y clara.</p>
+					<div class="intro__buttons intro__buttons--left modal-toggle" data-openpopup="signuplogin"
+						data-popup="signup">
+						<a href="./index.html" id="cta_section_control" class="btn btn--orange-bg ">Empezar</a>
+					</div>
+				</div>
+				<div class="grid__item grid__item--x3">
+					<div class="grid__image grid__image--right" id="control_image" data-paroller-factor="0.1"
+						data-paroller-type="foreground" data-paroller-direction="vertical"><img
+							src="images/app/analytics-bills.svg"
+							alt="Conomy mostrando datos de transaccion con sugerencias de gasto promedio e informacion clave"
+							title="" /></div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- Section -- about -->
+
+
+	<!-- Section -- stats -->
+	<section class="section" id="education">
+
+		<div class="section__content section__content--fluid-width section__content--about">
+			<div class="grid grid--5col grid--about">
+
+				<div class="grid__item grid__item--x2">
+					<h3 class="grid__title">Objetivos y desafíos</h3>
+					<p class="grid__text">Conomy te ayuda a tomar las mejores decisiones para tu finanzas. Nuestra app es tan inteligente como nuestra tarjeta, accede a toda la info que necesitas fácilmente, gasta de forma eficiente y ahorra mientras lo haces.
+					</p>
+					<!-- <p class="grid__text">
+					</p> -->
+					<div class="intro__buttons intro__buttons--left modal-toggle" data-openpopup="signuplogin"
+						data-popup="signup">
+						<a href="./index.html" id="cta_section_edu" class="btn btn--orange-bg">Empezar</a>
+					</div>
+				</div>
+				<div class="grid__item grid__item--x3">
+					<div class="grid__image grid__image--right" data-paroller-factor="0.1"
+						data-paroller-type="foreground" data-paroller-direction="vertical"><img
+							src="images/app/goals.svg"
+							alt="Ilustracion con dos personas tomando una decision y dos tarjetas sobre educacion financiera"
+							title="" /></div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Section -- Libertad -->
+	<section class="section" id="freedom">
+
+		<div class="section__content section__content--fluid-width section__content--about">
+			<div class="grid grid--5col grid--about">
+
+
+				<div class="grid__item grid__item--x2 grid__item--floated-right">
+					<h3 class="grid__title">Disfruta de más libertad</h3>
+					<p class="grid__text">No te preocupes sobre qué pasa con tu dinero, para eso estamos nosotros.<br>
+					Conomy maneja tus límites y objetivos, avisándote cuando sea necesario para
+						que tú puedas relajarte. Siempre en control.</p>
+					<div class="intro__buttons intro__buttons--left modal-toggle" data-openpopup="signuplogin"
+						data-popup="signup">
+						<a href="./index.html" id="cta_section_freedom" class="btn btn--orange-bg">Despreocúpate</a>
+					</div>
+				</div>
+				<div class="grid__item grid__item--x3">
+					<div class="grid__image grid__image--left" id="libertad_image" data-paroller-factor="0.1"
+						data-paroller-type="foreground" data-paroller-direction="vertical"><img
+							src="images/app/freedom-2.png"
+							alt="Pantalla de celular mostrando notificaciones de Conomy sobre objetivos y presupuestos"
+							title="" /></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section -- how it works -->
+	<section class="section section--clients" id="how_it_works">
+
+		<div class="section__content section__content--fluid-width section__content--about">
+			<div class="grid grid--5col grid--about">
+
+				<div class="grid__item grid__item--x2">
+					<h3 class="grid__title">¿Cómo funciona?</h3>
+					<p class="grid__text">Solo debes crear una cuenta en la app y conectar tus tarjetas en ella. Luego de verificar tu cuenta, te enviamos tu tarjeta Conomy. Una vez en tus manos, la puedes activar y empezar a usar!
+						</p>
+						<ul class="grid__list">
+							<li>En la app escoges con que tarjeta deseas pagar y listo!.</li>
+							<li>Todas tus compras y transacciones están protegidas. Conomy es seguro!</li>
+							<li>Al pagar con Conomy ahorras, siempre estás en control y obtienes beneficios que nadie más te da.</li>
+							<li>Conomy hace lo que nadie había querido hacer por ti, entregarte el control. ¡Nunca habías visto una tarjeta como Conomy!</li>
+						</ul>
+					<!-- <div class="intro__buttons intro__buttons--left modal-toggle" data-openpopup="signuplogin"
+						data-popup="signup">
+						<a href="./index.html" id="cta_section_control" class="btn btn--orange-bg ">Regístrate ahora</a>
+					</div> -->
+				</div>
+				<div class="grid__item grid__item--x3">
+					<div class="grid__image grid__image--right" data-paroller-factor="0.1"
+						data-paroller-type="foreground" data-paroller-direction="vertical"><img
+							src="images/app/how-it-works-mc-orange.png"
+							alt="Aplicación de Conomy conectandose a bancos chilenos, estadísticas, reportes y ahorros entre otros productos financieros"
+							title="" /></div>
+				</div>
+			</div>
+		</div>
+		<svg class="svg-cta-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+			<path d="M0,70 C30,130 70,50 100,70 L100,100 0,100 Z" fill="#FCECDD" />
+		</svg>
+	</section>
+
+	<section class="section section--cta" id="conomy">
+		<div class="section__content section__content--fluid-width section__content--padding section__content--cta">
+			<h2 class="section__title section__title--centered section__title--cta">Simplifica, controla y
+				ahorra.</h2>
+			<div class="section__description section__description--centered section__description--cta">
+				Todas tus app financieras en una sola, donde siempre tienes la información y el control que siempre necesitaste. ¡y por si fuera poco ahorras mientras gastas!.
+			</div>
+			<!-- <div class="intro__buttons intro__buttons--centered">
+				<a href="https://www.notion.so/Por-qu-Conomy-3ea7a6dd6c3d4ec7af656575b1f0efc4" id="read_more_bottom"
+					class="btn btn--blue-bg" target="_blank" rel="noopener">Más sobre nuestra visión</a>
+			</div> -->
+		</div>
+		<svg class="svg-cta-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+			<path d="M0,70 C30,130 70,50 100,70 L100,100 0,100 Z" fill="#ffffff" />
+		</svg>
+	</section>
+
+	<footer class="footer" id="footer">
+		<div class="footer__content footer__content--fluid-width footer__content--svg">
+
+			<div class="grid grid--5col">
+
+				<div class="grid__item grid__item--x1">
+					<h3 class="grid__title grid__title--footer-logo">
+						<img class="conomy__logo" src="images/logo-All-orange.svg" title="Logo Conomy" />
+					</h3>
+					<p class="grid__text grid__text--copyright">Copyright &copy; 2022.</p>
+					<a href="mailto:hola@conomyhq.com" rel="noopener">
+						<p class="grid__text grid__text--copyright" id="email-contact">hola@conomyhq.com</p>
+					</a>
+					<ul class="grid__list grid__list--sicons">
+						<li><a href="https://www.facebook.com/ConomyHQ/" target="_blank" rel="noopener"><img
+									src="./images/social/black/facebook.png" alt="Social link for Facebook"
+									title="" /></a></li>
+						<li><a href="https://www.linkedin.com/company/conomyhq/" target="_blank" rel="noopener"><img
+									src="./images/social/black/linkedin.png" alt="Social link for LinkedIn"
+									title="" /></a></li>
+						<li><a href=" https://www.instagram.com/conomy_app/" target="_blank" rel="noopener"><img
+									src="./images/social/black/instagram.png" alt="Social link for Instagram"
+									title="" /></a></li>
+					</ul>
+				</div>
+				<!-- <div class="grid__item">
+					<h3 class="grid__title grid__title--footer">Empresa</h3>
+					<ul class="grid__list grid__list--fmenu">
+						<li><a href="#">Cómo funciona?</a></li>
+						<li><a id="notion_ayudanos"
+								href="https://www.notion.so/conomy/Ay-danos-439ff5a14a9c4ce5998734cbe83132c7"
+								target="_blank" rel="noopener">Ayúdanos!</a>
+						</li>
+					</ul>
+				</div> -->
+			</div>
+		</div>
+	</footer>
+	<section class="modal modal--signuplogin">
+		<div class="modal__overlay modal__overlay--toggle"></div>
+		<div class="modal__wrapper modal-transition">
+     
+			<div class="modal__body">
+				<div class="modal__content modal__content--signup">
+					<div class="modal__form form">
+						<!-- Begin Mailchimp Signup Form -->
+						<div id="mc_embed_signup">
+							<h2 class="form__title" style="color: #36384C; font-weight:500">Regístrate para ser de los primeros en tener acceso a Conomy </h2>
+							<form class="form__container"
+								action="https://conomyhq.us19.list-manage.com/subscribe/post?u=913fb462d6cd9061f4d515557&amp;id=b78d0cb936"
+								method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+								class="validate" target="_blank" novalidate>
+								<div id="mc_embed_signup_scroll">
+									<div class="mc-field-group form__row">
+										<label class="form__label" for="mce-EMAIL">Email <span class="asterisk">*</span>
+										</label>
+										<input class="form__input" type="email" value="" name="EMAIL"
+											class="required email" id="mce-EMAIL">
+										<span class="form__row-border"></span>
+									</div>
+									<div class="mc-field-group form__row">
+										<label class="form__label" for="mce-FNAME">Nombre </label>
+										<input class="form__input" type="text" value="" name="FNAME" class=""
+											id="mce-FNAME">
+										<span class="form__row-border"></span>
+									</div>
+									<div class="mc-field-group form__row">
+										<label class="form__label" for="mce-LNAME">Apellido </label>
+										<input class="form__input" type="text" value="" name="LNAME" class=""
+											id="mce-LNAME">
+										<span class="form__row-border"></span>
+									</div>
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>
+									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+											type="text" name="b_913fb462d6cd9061f4d515557_b78d0cb936" tabindex="-1"
+											value=""></div>
+									<div class="clear">
+										<input type="submit" class="form_2" name="subscribe" id="mc-embedded-subscribe" style="display: none" >
+										<div class="form__submit form__submit_2 btn btn--green-bg">
+											Aceptar
+									</div>
+									</div>
+								</div>
+
+							</form>
+						</div>
+
+						<!--End mc_embed_signup-->
+					</div>
+					<div class="modal__info" style="color:#fff ;background: #FEA82F">
+						<div class="modal__descr" style="font-weight: 400;">Estamos trabajando para darte el control de tu plata!</div>
+						<p>Regístrate para ser de los primeros! Mientras tanto te enviaremos tips sobre bienestar
+							financiero.
+						</p>
+						<ul class="modal__list">
+						</ul>
+					</div>
+				</div> <!-- End Modal signup -->
+
+			</div>
+
+		</div>
+	</section> <!-- Modal for Login and Signup -->
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.paroller.min.js"></script>
+	<script src="js/jquery.custom.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/swiper.custom.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/mailchimp.js"></script> 
+	<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+	<script src="js/survey.js"></script>
+
+</body>
+
+</html>
