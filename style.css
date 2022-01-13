@@ -2955,6 +2955,10 @@ svg.svg-cta-bottom {
 
 @media screen and (max-width: 850px){
 
+	ul.grid__list li {
+		font-size: 16px !important;
+	}
+
 	.init-mssg{
 		display: none !important;
 	}
