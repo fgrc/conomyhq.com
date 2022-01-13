@@ -750,6 +750,18 @@ h6{
  /* #libertad_image {
 	max-width: 90%;
 }  */
+#large-device{
+	display: none;
+}
+@media (max-aspect-ratio: 9/16) {
+
+	#large-device{
+		display: flex;
+	}
+	#small-device{
+		display: none;
+	}
+}
 
 /*===============================================*/
 /*  6. BUTTONS	 			 */

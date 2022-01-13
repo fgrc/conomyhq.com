@@ -111,7 +111,7 @@
 					<li><a class=" header-link" id="nav-control" href="#control">Controla</a></li>
 					<li><a class=" header-link" id="nav-edu" href="#education">Ahorra</a></li>
 					<li><a class=" header-link" id="nav-freedom" href="#freedom">Liberate</a></li>
-					<li><a class=" header-link" id="nav-freedom" href="#security">Seguridad</a></li>
+					<li><a class=" header-link" id="nav-freedom" href="#security">Seguro</a></li>
 					<li><a class=" header-link" id="nav-freedom" href="#how_it_works">¿Cómo funciona?</a></li>
 					</li> 
 					<!-- <li><a class="header-link" href="#conomy">¿Quienes Somos?</a></li> -->
@@ -132,7 +132,7 @@
 						Imagina una tarjeta con la que puedes controlar a todas las demás, pagar donde y como quieras. Inscribete en nuestra lista de espera y se de los primeros en tenerla.<br>					
 					</div>
 					<!-- Begin Mailchimp Signup Form -->
-					<div id="mc_embed_signup">
+					<div class="form__1" id="mc_embed_signup">
 						<form
 							action="https://conomyhq.us19.list-manage.com/subscribe/post?u=913fb462d6cd9061f4d515557&amp;id=b78d0cb936"
 							method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
@@ -173,7 +173,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="intro-animation-line" style="padding-top:12px;">
+		<div id="large-device" class="intro-animation-line">
+			<img src="./images/app/home-new.svg"
+				alt="Pantalla de celular con el inicio de Conomy mostrando balance de cuenta, objetivos y tips para ahorrar y manejar tu dinero"
+				title="" />
+		</div>
+		<div id="small-device" class="intro-animation-line" style="padding-top:12px;">
 			<img src="./images/app/home-principal.svg"
 				alt="Pantalla de celular con el inicio de Conomy mostrando balance de cuenta, objetivos y tips para ahorrar y manejar tu dinero"
 				title="" />
@@ -311,7 +316,7 @@
 				<div class="grid__item grid__item--x3">
 					<div class="grid__image" id="libertad_image" data-paroller-factor="0.05"
 						data-paroller-type="foreground" data-paroller-direction="vertical"><img
-							src="images/app/benefits-fl-3.svg"
+							src="images/app/freedom-fl.jpg"
 							alt="Pantalla de celular mostrando notificaciones de Conomy sobre objetivos y presupuestos"
 							title="" /></div>
 				</div>
@@ -326,9 +331,10 @@
 
 				<div class="grid__item grid__item--x3 grid__item--floated-right">
 					<h3 class="grid__title">Seguro.</h3>
-					<p class="grid__text">No te preocupes sobre qué pasa con tu dinero, para eso estamos nosotros.</p>
-					<p class="grid__text">Conomy maneja tus límites y objetivos, avisándote cuando sea necesario para
-						que tú puedas relajarte. Siempre en control.</p>
+					<p class="grid__text">Conomy es seguro de principio a fin, usamos tecnología de punta como el reconocimiento por biometría e inteligencia artificial (AI) para la detección de fraudes.</p>
+					<p class="grid__text">Bloquea tu tarjeta con solo un click, recibe notificaciones en tiempo real sobre lo gastado y nuestro servicio al cliente te atiende 24/7.</p>
+					<p class="grid__text">Deja las demás tarjetas en casa y olvídate de los malos ratos por robos, clonaciones o estafas.</p>
+					<p class="grid__text">Ahh y si perdiste tu celular, no te preocupes, nuestros procesos de AI para detección de fraudes están siempre activos.</p>
 					<div class="intro__buttons intro__buttons--left modal-toggle" data-openpopup="signuplogin"
 						data-popup="signup">
 						<a href="./index.html" id="cta_section_freedom" class="btn btn--orange-bg">Despreocúpate</a>
@@ -405,12 +411,16 @@
 					<h3 class="grid__title grid__title--footer-logo">
 						<img class="conomy__logo" src="images/logo-All-orange.svg" title="Logo Conomy" />
 					</h3>
+					<a href="https://developer.conomy.app/">
+						<p class="grid__text grid__text--copyright">Desarrolladores</p>
+					</a>
 					<p class="grid__text grid__text--copyright">Copyright &copy; 2022.</p>
 					<a href="mailto:hola@conomyhq.com" rel="noopener">
 						<p class="grid__text grid__text--copyright" id="email-contact">hola@conomyhq.com</p>
 					</a>
 					<ul class="grid__list grid__list--sicons">
-						<li><a href="https://www.facebook.com/ConomyHQ/" target="_blank" rel="noopener"><img
+						<li>
+							<a href="https://www.facebook.com/ConomyHQ/" target="_blank" rel="noopener"><img
 									src="./images/social/black/facebook.png" alt="Social link for Facebook"
 									title="" /></a></li>
 						<li><a href="https://www.linkedin.com/company/conomyhq/" target="_blank" rel="noopener"><img
@@ -436,14 +446,14 @@
 	</footer>
 	<section class="modal modal--signuplogin">
 		<div class="modal__overlay modal__overlay--toggle"></div>
-		<div class="modal__wrapper modal-transition">
+		<div class="modal__wrapper modal-transition" style="border-radius: 6px;">
      
 			<div class="modal__body">
-				<div class="modal__content modal__content--signup">
+				<div class="modal__content modal__content--signup" style="border-radius: 6px;">
 					<div class="modal__form form">
 						<!-- Begin Mailchimp Signup Form -->
 						<div id="mc_embed_signup">
-							<h2 class="form__title" style="color: #36384C; font-weight:500">Regístrate para ser de los primeros en tener acceso a Conomy </h2>
+							<h2 class="form__title" style="color: #36384C; font-weight:500">Si te falta Conomy, registrate para ser de los primeros en tenerla. </h2>
 							<form class="form__container"
 								action="https://conomyhq.us19.list-manage.com/subscribe/post?u=913fb462d6cd9061f4d515557&amp;id=b78d0cb936"
 								method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
@@ -489,10 +499,9 @@
 
 						<!--End mc_embed_signup-->
 					</div>
-					<div class="modal__info" style="color:#fff ;background: #FEA82F">
-						<div class="modal__descr" style="font-weight: 400;">Estamos trabajando para darte el control de tu plata!</div>
-						<p>Regístrate para ser de los primeros! Mientras tanto te enviaremos tips sobre bienestar
-							financiero.
+					<div class="modal__info" style="color:#ff6800 ;background: #fcecdd">
+						<div class="modal__descr" style="font-weight: 500;">Estamos trabajando para hacer crecer tu plata.</div>
+						<p>Inscribete en nuestra lista de espera y está un paso más cerca de cumplir tus metas.
 						</p>
 						<ul class="modal__list">
 						</ul>
@@ -505,6 +514,7 @@
 	</section> <!-- Modal for Login and Signup -->
 
 
+
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/jquery.paroller.min.js"></script>
 	<script src="js/jquery.custom.js"></script>
@@ -514,6 +524,54 @@
 	<script src="js/mailchimp.js"></script> 
 	<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 	<script src="js/survey.js"></script>
+
+
+	<script>
+
+		function image(){
+			let height = $(window).height();
+			let width =  $(window).width();
+			let form__1 = $(".form__1");
+			max_height = height-(form__1.offset().top+form__1.outerHeight());
+			max_height_px = Math.round(max_height) + 'px'
+			console.log(max_height_px);
+
+			if(width/height < 9/16){
+				$("#large-device").css("display","flex");
+				$("#small-device").css("display","none");
+			}else{
+				$("#large-device").css("display","none");
+				$("#small-device").css("display","flex");
+			}
+
+			$("#small-device").animate({
+				"height":max_height_px
+			});
+			$("#large-device").animate({
+				"height":max_height_px
+			});
+			// $("#small-device").css("height", max_height)
+			// $("#large-device").css("height", max_height)
+		}
+		$(document).ready(function (){
+			let width =  $(window).width();
+			if (width < 850){
+				image();
+			}
+			$( window ).resize(function() {
+				let width =  $(window).width();
+					if (width < 850){
+					image();
+				}else{
+					$("#large-device").css("display","none");
+					$("#small-device").animate({
+						"height":'70%'
+					});
+				}
+			});
+		});
+
+	</script>
 
 </body>
 
