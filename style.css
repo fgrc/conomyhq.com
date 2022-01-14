@@ -2955,6 +2955,12 @@ svg.svg-cta-bottom {
 
 @media screen and (max-width: 850px){
 
+	svg{
+		visibility: hidden;
+	}
+	.section__content--cta{
+		padding: 60px 0 !important;
+	}
 	ul.grid__list li {
 		font-size: 16px !important;
 	}
