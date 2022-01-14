@@ -2955,6 +2955,15 @@ svg.svg-cta-bottom {
 
 @media screen and (max-width: 850px){
 
+
+	#large-title{
+		display: none !important;
+	}
+
+	#small-title{
+		display: inline-flex !important;
+	}
+
 	svg{
 		visibility: hidden;
 	}
@@ -2979,6 +2988,15 @@ svg.svg-cta-bottom {
 			z-index: 222;
 	}
 }
+
+#small-title{
+	display: none;
+}
+#large-title{
+	display: inline-flex;
+}
+
+
 
 
 
