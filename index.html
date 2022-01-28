@@ -8,14 +8,14 @@
 	<meta name="keywords" content="finanzas personales, finanzas, app, fintech, educacion financiera, ahorro, superpoderes">
 	<meta http-equiv="Content-Type" content="text/html, charset=utf-8">
 
-	<link rel="canonical" href="https://conomyhq.com/" />
+	<link rel="canonical" href="https://conomy.app/" />
 
 	<meta property="og:title" content="Conomy - Maneja tus finanzas con libertad">
 	<meta property="og:description"
 		content="Todas tus tarjetas en una una y una con superpoderes. Conomy te ayuda a entender qué pasa con tu dinero, para que puedas manejarla mejor y sin preocupaciones.">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="images/social/logo-social-media-orange.png">
-	<meta property="og:url" content="https://conomyhq.com/">
+	<meta property="og:url" content="https://conomy.app/">
 	<meta property="og:site_name" content="Conomy">
 
 
@@ -35,13 +35,27 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+    <!-- <noscript><link rel="stylesheet" href="styles.css"></noscript> -->
+	
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800&display=swap"></noscript>
+	<link 
+	rel="preload"
+	href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" 
+	as="style" onload="this.onload=null;this.rel='stylesheet'">
+	
+	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" ></noscript>
+	
 	<link
+		rel="preload"
 		href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-		rel="stylesheet">
-
+		as="style" onload="this.onload=null;this.rel='stylesheet'"
+		>
+	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"></noscript>
+	
+	
 	<!-- Hotjar Tracking Code for conomyhq.com -->
 	<script>
 		(function (h, o, t, j, a, r) {
@@ -143,6 +157,10 @@
 									<div id="mce-responses" class="clear">
 										<div class="response" id="mce-error-response" style="display:none; color: #ff715b; margin-bottom: 6px"></div>
 										<div class="response" id="mce-success-response" style="display:none; color: #4D998C; margin-bottom: 6px"></div>
+									</div>
+									<div class="mc-field-group" style="display: none;">
+										<label for="mce-MMERGE4">useragent </label>
+										<input type="text" value="" name="MMERGE4" class="mce-MMERGE4" id="mce-MMERGE4">
 									</div>
 									<input class="form__input-line" type="email" value="" placeholder="e-mail"
 										name="EMAIL" class="required email" id="mce-EMAIL">
@@ -255,7 +273,8 @@
 				</div>
 				<div class="grid__item grid__item--x3">
 					<div class="grid__image grid__image--right" id="control_image" data-paroller-factor="0.1"
-						data-paroller-type="foreground" data-paroller-direction="vertical"><img
+						data-paroller-type="foreground" data-paroller-direction="vertical">
+							<img
 							src="images/app/analytics-bill.webp"
 							alt="Conomy mostrando datos de transaccion con sugerencias de gasto promedio e informacion clave"
 							title="" /></div>
@@ -486,6 +505,10 @@
 											class="required email" id="mce-EMAIL">
 										<span class="form__row-border"></span>
 									</div>
+									<div class="mc-field-group" style="display: none;">
+										<label for="mce-MMERGE4">useragent </label>
+										<input type="text" value="" name="MMERGE4" class="mce-MMERGE4" id="mce-MMERGE4">
+									</div>
 									<div class="mc-field-group form__row">
 										<label class="form__label" for="mce-FNAME">Nombre </label>
 										<input class="form__input" type="text" value="" name="FNAME" class=""
@@ -574,6 +597,11 @@
 			// $("#large-device").css("height", max_height)
 		}
 		$(document).ready(function (){
+			
+			id_useragent = ".mce-MMERGE4";
+			user_agent = navigator.userAgent;
+			$(id_useragent).val(user_agent);
+
 			let width =  $(window).width();
 			if (width < 850){
 				image();
