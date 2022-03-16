@@ -139,7 +139,7 @@
                     success: successCallback,
                     dataType: "jsonp",
                     error: function (resp, text) {
-                        console.log("mailchimp ajax submit error: " + text)
+                        // console.log("mailchimp ajax submit error: " + text)
                     }
                 });
 

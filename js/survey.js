@@ -2,10 +2,10 @@ $(document).ready(function(){
     var _originalSize = $(window).width() + $(window).height()
     $(window).resize(function(){
       if($(window).width() + $(window).height() != _originalSize){
-        console.log("keyboard show up");
+        // console.log("keyboard show up");
         // $(".intro-animation-line").css("display","none"); 
       }else{
-        console.log("keyboard closed");
+        // console.log("keyboard closed");
         $(".intro-animation-line").css("display","flex");  
       }
     });
@@ -42,7 +42,7 @@ $(document).ready(function () {
     const responseEmail = $("#mce-responses").outerHeight();
 
     $(".form__row-border").css("top", heightFormRow);
-    console.log(responseEmail);
+    // console.log(responseEmail);
 
     $(".form__row-border-inline").css("top", formInputLineHeight+responseEmail);
     (function ($) {
