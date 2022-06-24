@@ -224,9 +224,9 @@ h6{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-	font-weight: 400;
-	color:  #302C3A;
-	-webkit-tap-highlight-color: transparent;
+  font-weight: 400;
+  color:  #302C3A;
+  -webkit-tap-highlight-color: transparent;
 }
 .header__menu:after,
 .header__menu > ul:after {
@@ -268,10 +268,10 @@ h6{
     height:70px;
 	line-height:70px;
 	color:#3D4043;
-	font-size:14px;
+	font-size:0.82rem;
 	display:inline-block;
 	letter-spacing: 0.5px;
-	padding:0 25px;
+	padding:0 12px;
 	margin:0;
 	font-weight:300;
 	overflow: hidden;
